@@ -6,9 +6,9 @@ import Delegation from '../../images/Delegation.png'
 const Story = () => {
   return (
     <div className=''>
-        <div className='w-[90%] xl:w-[80%] mx-auto py-[98px]'>
-            <h1 className='font-gothic-a1 font-semibold text-2xl sm:text-3xl md:text-5xl xl:text-[52px] text-[#0C0405] leading-[65px] text-center'>Our Story</h1>
-            <p className='mt-9 max-w-[820px] m-auto font-normal text-xs sm:text-sm md:text-base xl:text-lg leading-[24px] text-center text-[#0C0405]'>Inner Circle was born in 2024 with a clear vision: to revolutionize how companies build, leverage and retain a global workforce. Our foundation is built on three core beliefs:</p>
+        <div className='w-[90%] xl:w-[80%] mx-auto py-[40px] md:py-[50px] lg:py-[70px] xl:py-[98px]'>
+            <h1 className='font-gothic-a1 font-semibold text-2xl sm:text-3xl md:text-5xl xl:text-[52px] text-[#0C0405] leading-[30px] sm:leading-[40px] md:leading-[50px] xl:leading-[65px] text-center'>Our Story</h1>
+            <p className='mt-3 sm:mt-6 md:mt-9 xl:mt-[66px] max-w-[820px] m-auto font-normal leading-[15px] sm:leading-[18px] md:leading-[24px] text-xs sm:text-sm md:text-base xl:text-lg text-center text-[#0C0405]'>Inner Circle was born in 2024 with a clear vision: to revolutionize how companies build, leverage and retain a global workforce. Our foundation is built on three core beliefs:</p>
             <div className='mt-8 flex justify-center items-center w-full gap-20 flex-wrap'>
                 <div className='max-w-[280px] flex justify-center items-center flex-col'>
                     <img src={Diversity} alt="Diversity" width="100" height="100" />
