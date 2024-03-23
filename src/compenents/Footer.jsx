@@ -12,7 +12,7 @@ import InstagramImg from '../images/Vector (3).png'
 
 const Footer = () => {
   return (
-    <div className='w-screen h-[578px] bg-footer-img bg-center bg-cover bg-no-repeat'>
+    <div className='w-screen h-[300px] sm:h-[400px] md:h-[578px] bg-footer-img bg-center bg-cover bg-no-repeat'>
         <div className='w-[90%] xl:w-[80%] h-full mx-auto flex justify-between items-center'>
             <img src={FooterImg} alt="FooterImg"  className='w-[89px] md:w-[125px] lg:w-[176px]' />
             <div>
