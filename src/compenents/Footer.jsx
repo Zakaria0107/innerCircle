@@ -12,16 +12,16 @@ import InstagramImg from '../images/Vector (3).png'
 
 const Footer = () => {
   return (
-    <div className='w-screen h-[578px] bg-footer-img bg-center bg-contain'>
-        <div className='w-[80%] h-full mx-auto flex justify-between items-center'>
-            <img src={FooterImg} alt="FooterImg" />
+    <div className='w-screen h-[578px] bg-footer-img bg-center bg-cover bg-no-repeat'>
+        <div className='w-[90%] xl:w-[80%] h-full mx-auto flex justify-between items-center'>
+            <img src={FooterImg} alt="FooterImg"  className='w-[89px] md:w-[125px] lg:w-[176px]' />
             <div>
                 <h5 className='font-gothic-a1 font-bold text-[#F6F6F6] text-base leading-[48px] mb-3'>Contact us</h5>
-                <div className='flex justify-start items-end gap-10'>
-                    <div className='text-white'>
-                        <p className='flex justify-start items-center text-[#F6F6F6]  gap-4 mb-3'><img src={LocationImg} alt="LocationImg" />ABC, street 123 USA</p>
-                        <p className='flex justify-start items-center text-[#F6F6F6]  gap-4 mb-3'><img src={NumberImg} alt="NumberImg" />(347) 6002107</p>
-                        <p className='flex justify-start items-center text-[#F6F6F6]  gap-4 mb-3'><img src={MessageImg} alt="MessageImg" />example@gmail.com</p>
+                <div className='w-auto flex justify-start items-end gap-10 flex-col lg:flex-row'>
+                    <div className='text-white '>
+                        <p className=' flex justify-start items-center text-[#F6F6F6] gap-4 mb-3'><img src={LocationImg} alt="LocationImg" />ABC, street 123 USA</p>
+                        <p className='flex justify-start items-center text-[#F6F6F6] gap-4 mb-3'><img src={NumberImg} alt="NumberImg" />(347) 6002107</p>
+                        <p className='flex justify-start items-center text-[#F6F6F6] gap-4 mb-3'><img src={MessageImg} alt="MessageImg" />example@gmail.com</p>
                     </div>
                     <div>
                         <h5 className='font-gothic-a1 font-bold text-[#F6F6F6] text-base leading-[48px] mb-3'>Follow us</h5>
