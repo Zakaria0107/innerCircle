@@ -74,7 +74,7 @@
 import React, { useEffect } from 'react';
 import ContactImg from '../../images/contact.png';
 
-const Contact = () => {
+const Form = () => {
     useEffect(() => {
         const script = document.createElement('script');
         script.src = '//embed.typeform.com/next/embed.js';
@@ -93,5 +93,5 @@ const Contact = () => {
     );
 };
 
-export default Contact;
+export default Form;
 

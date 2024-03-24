@@ -9,5 +9,5 @@ body {
 
 
 .form-container div:first-child {
-    min-height: 1000px !important;
+    min-height: 100vh !important;
  } 
