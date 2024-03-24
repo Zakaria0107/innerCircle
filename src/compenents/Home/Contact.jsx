@@ -87,8 +87,8 @@ const Contact = () => {
     }, []);
 
     return (
-        <div className='h-auto'>
-            <div data-tf-live="01HSC8GM4NG7PQJ3P5JCFKFEER"></div>
+        <div className='w-screen min-h-screen'>
+            <div className='form-container' data-tf-live="01HSC8GM4NG7PQJ3P5JCFKFEER"></div>
         </div>
     );
 };
