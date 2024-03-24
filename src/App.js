@@ -1,5 +1,6 @@
 import Footer from "./compenents/Footer";
 import Condidates from "./compenents/Home/Condidates";
+import Contact from "./compenents/Home/Contact";
 import FAQ from "./compenents/Home/FAQ";
 import ForCompanies from "./compenents/Home/ForCompanies";
 import Hero from "./compenents/Home/Hero";
@@ -19,6 +20,7 @@ function App() {
       <Condidates/>
       <Team/>
       <FAQ/>
+      <Contact/>
       <Footer/>
     </>
   );

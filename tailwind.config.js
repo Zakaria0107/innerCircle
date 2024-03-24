@@ -12,7 +12,8 @@ module.exports = {
         'hero-home': "url('./images/HeroBackground.png')",
         'footer-img': "url('./images/footer image.png')",
         'condidates': "url('./images/for candidates.png')",
-        'faqImage': "url('./images/faq.png')"
+        'faqImage': "url('./images/faq.png')",
+        'contactImg' : 'url(./images/contact.png)'
       }
     },
   },
