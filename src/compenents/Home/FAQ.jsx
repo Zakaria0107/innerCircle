@@ -3,7 +3,7 @@ import FaqImg from '../../images/faq.png'
 import Down from '../../images/down.png'
 const FAQ = () => {
   return (
-    <div className='w-screen bg-faqImage bg-cover bg-no-repeat'>
+    <div id='faqs' className='w-screen bg-faqImage bg-cover bg-no-repeat'>
       <div className='pt-8 pb-16'>
         <h1 className='font-gothic-a1 font-semibold text-2xl sm:text-3xl md:text-5xl xl:text-[52px] text-white leading-[30px] sm:leading-[40px] md:leading-[50px] xl:leading-[65px] text-center mb-9 md:mb-14'>FAQs</h1>
         <div className='w-[92%] xl:w-[86%] mx-auto'>

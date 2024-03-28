@@ -3,7 +3,7 @@ import mainImage from '../../images/Rectangle 15480.png'
 
 const ForCompanies = () => {
   return (
-    <div className='w-screen'>
+    <div id='forCompanies' className='w-screen'>
         <div className='w-[92%] xl:w-[86%] mx-auto py-16 sm:py-20 flex justify-between items-center flex-col-reverse md:flex-row gap-10  xl:gap-24'>
             <div>
                 <h1 className='font-gothic-a1 font-semibold text-2xl sm:text-3xl md:text-5xl xl:text-[52px] text-[#0C0405] leading-[30px] sm:leading-[40px] md:leading-[50px] xl:leading-[65px]'>For Companies</h1>
