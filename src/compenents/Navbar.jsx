@@ -9,11 +9,11 @@ const AboutMenu = ({ openAboutMenu, setOpenAboutMenu }) => {
       <motion.ul
         initial={{ scale: 0, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
-        className='absolute top-8 bg-white rounded-lg py-6 px-4 w-[200px] flex flex-col gap-5 text-xs shadow-xl'
+        className='absolute top-8 bg-[#0C0405] text-[#FAF9F9] rounded-2xl pb-6 pt-4 px-2 w-[200px] flex flex-col  text-xs shadow-xl capitalize'
       >
-        <li className={`text-zinc-400 transition-all duration-300 ease-in-out`}><a href="#ourStory">OUR STORY</a></li>
-        <li className={`text-zinc-400 transition-all duration-300 ease-in-out`}><a href="#ourTeam">OUR TEAM</a></li>
-        <li className={`text-zinc-400 transition-all duration-300 ease-in-out`}><a href="#faqs">FAQs</a></li>
+        <li className={` font-normal text-sm sm:text-base leading-5 transition-all duration-300 ease-in-out border-b border-solid border-[#565656] py-3 sm:py-4 px-3`}><a href="#ourStory">Our Story</a></li>
+        <li className={`font-normal text-sm sm:text-base leading-5  transition-all duration-300 ease-in-out border-b border-solid border-[#565656] py-3 sm:py-4 px-3`}><a href="#ourTeam">Team</a></li>
+        <li className={`font-normal text-sm sm:text-base leading-5  transition-all duration-300 ease-in-out border-b border-solid border-[#565656] py-3 sm:py-4 px-3`}><a href="#faqs">FAQs</a></li>
       </motion.ul>
     )
   );

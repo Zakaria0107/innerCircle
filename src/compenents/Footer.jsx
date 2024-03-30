@@ -3,7 +3,7 @@ import FooterImg from '../images/footer.png'
 import LocationImg from '../images/location.png'
 import MessageImg from '../images/message.png'
 import NumberImg from '../images/number.png'
-
+import CalenderImg from '../images/calender.png'
 import FacebookImg from '../images/Vector.png'
 import LinkedinImg from '../images/Vector (1).png'
 import XImg from '../images/Vector (2).png'
@@ -15,17 +15,18 @@ const Footer = () => {
     <div className='w-screen h-[300px] sm:h-[400px] md:h-[578px] bg-footer-img bg-center bg-cover bg-no-repeat'>
         <div className='w-[90%] xl:w-[80%] h-full mx-auto flex justify-between items-center'>
             <img src={FooterImg} alt="FooterImg"  className='w-[89px] md:w-[125px] lg:w-[176px]' />
-            <div>
-                <h5 className='font-gothic-a1 font-bold text-[#F6F6F6] text-xs sm:text-base leading-[48px] sm:mb-3'>Contact us</h5>
-                <div className='w-auto flex justify-start item-start lg:items-end gap-2 sm:gap-10 flex-col lg:flex-row'>
+            <div className=''>
+                <div className='w-auto flex justify-start item-start gap-2 sm:gap-10 flex-col lg:flex-row'>
                     <div className='text-white '>
+                        <h5 className='font-gothic-a1 font-bold text-[#F6F6F6] text-xs sm:text-base leading-[48px] sm:mb-3'>Contact us</h5>
                         {/* <p className=' flex justify-start items-center text-[10px] sm:text-xs text-[#F6F6F6] gap-4 mb-1 sm:mb-3'><img src={LocationImg} alt="LocationImg" />ABC, street 123 USA</p> */}
                         <p className='flex justify-start items-center text-[10px] sm:text-xs text-[#F6F6F6] gap-4 mb-1 sm:mb-3'><img src={NumberImg} alt="NumberImg" />+1 (507) 407-2743</p>
                         <a href="mailto:team@innercircletalent.com" className='flex justify-start items-center text-[10px] sm:text-xs text-[#F6F6F6] gap-4 mb-1 sm:mb-3'><img src={MessageImg} alt="MessageImg" />team@innercircletalent.com</a>
+                        <a href="https://calendly.com/ahmad-bani/client-intake" target='_blank' className='flex justify-start items-center text-[10px] sm:text-xs text-[#F6F6F6] gap-4 mb-1 sm:mb-3 underline'><img src={CalenderImg} alt="CalenderImg" />Schedule a meeting</a>
                     </div>
-                    <div>
+                    <div className=''>
                         <h5 className='font-gothic-a1 font-bold text-[#F6F6F6] text-xs sm:text-base leading-[48px] sm:mb-3'>Follow us</h5>
-                        <div className='flex justify-start sm:justify-between items-center gap-3 sm:gap-8'>
+                        <div className='flex justify-start sm:justify-between items-center gap-3 sm:gap-8 mt-8'>
                             {/* <a href=""><img src={FacebookImg} alt="FacebookImg" className='w-3 h-3 sm:w-5 sm:h-5 md:w-8 md:h-8' /></a> */}
                             <a href="https://www.linkedin.com/company/inner-circle-talent/" target='_blank'><img src={LinkedinImg} alt="LinkedinImg" className='w-3 h-3 sm:w-5 sm:h-5 md:w-8 md:h-8' /></a>
                             {/* <a href=""><img src={XImg} alt="XImg"  className='w-3 h-3 sm:w-5 sm:h-5 md:w-8 md:h-8' /></a> */}
