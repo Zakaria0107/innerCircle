@@ -26,7 +26,7 @@ const Footer = () => {
                     </div>
                     <div className=''>
                         <h5 className='font-gothic-a1 font-bold text-[#F6F6F6] text-xs sm:text-base leading-[48px] sm:mb-3'>Follow us</h5>
-                        <div className='flex justify-start sm:justify-between items-center gap-3 sm:gap-8 mt-8'>
+                        <div className='flex justify-start sm:justify-between items-center gap-3 sm:gap-8 sm:mt-8'>
                             {/* <a href=""><img src={FacebookImg} alt="FacebookImg" className='w-3 h-3 sm:w-5 sm:h-5 md:w-8 md:h-8' /></a> */}
                             <a href="https://www.linkedin.com/company/inner-circle-talent/" target='_blank'><img src={LinkedinImg} alt="LinkedinImg" className='w-3 h-3 sm:w-5 sm:h-5 md:w-8 md:h-8' /></a>
                             {/* <a href=""><img src={XImg} alt="XImg"  className='w-3 h-3 sm:w-5 sm:h-5 md:w-8 md:h-8' /></a> */}
