@@ -11,9 +11,9 @@ const AboutMenu = ({ openAboutMenu, setOpenAboutMenu }) => {
         animate={{ scale: 1, opacity: 1 }}
         className='absolute top-8 bg-[#0C0405] text-[#FAF9F9] rounded-2xl pb-6 pt-4 px-2 w-[200px] flex flex-col  text-xs shadow-xl capitalize'
       >
-        <li className={` font-normal text-sm sm:text-base leading-5 transition-all duration-300 ease-in-out border-b border-solid border-[#565656] py-3 sm:py-4 px-3`}><a href="#ourStory">Our Story</a></li>
-        <li className={`font-normal text-sm sm:text-base leading-5  transition-all duration-300 ease-in-out border-b border-solid border-[#565656] py-3 sm:py-4 px-3`}><a href="#ourTeam">Team</a></li>
-        <li className={`font-normal text-sm sm:text-base leading-5  transition-all duration-300 ease-in-out border-b border-solid border-[#565656] py-3 sm:py-4 px-3`}><a href="#faqs">FAQs</a></li>
+        <a href="#ourStory"><li className={` font-normal text-sm sm:text-base leading-5 transition-all duration-300 ease-in-out border-b border-solid border-[#565656] py-3 sm:py-4 px-3`}>Our Story</li></a>
+        <a href="#ourTeam"><li className={`font-normal text-sm sm:text-base leading-5  transition-all duration-300 ease-in-out border-b border-solid border-[#565656] py-3 sm:py-4 px-3`}>Team</li></a>
+        <a href="#faqs"><li className={`font-normal text-sm sm:text-base leading-5  transition-all duration-300 ease-in-out pb-2 pt-3 sm:pt-4 px-3`}>FAQs</li></a>
       </motion.ul>
     )
   );
@@ -54,8 +54,13 @@ const Navbar = () => {
     <nav className='w-screen absolute top-5 lg:top-0 left-0 right-0'>
       <div className='w-[92%] xl:w-[86%] mx-auto flex justify-between items-center'>
         <a href="/"><img src={Logo} alt="" className='w-[89px] md:w-[125px] lg:w-[173px]' /></a>
-        <button aria-label="menu button" ref={menuBtn} type='button' className='block lg:hidden' onClick={() => setIsOpen(!isOpen)}>
+        {/* <button aria-label="menu button" ref={menuBtn} type='button' className='block lg:hidden' onClick={() => setIsOpen(!isOpen)}>
           {!isOpen ? <i className="fa-solid fa-bars mt-4 md:mt-0 text-2xl md:text-4xl text-white"></i> : <i className="fa-solid fa-xmark mt-4 md:mt-0 text-2xl md:text-4xl text-white"></i>}
+        </button> */}
+         <button aria-label="menu button" ref={menuBtn} type='button' className='block lg:hidden flex-col justify-center items-center' onClick={() => setIsOpen(!isOpen)}>
+            <span className={` transition-all duration-300 ease-out bg-white block h-0.5 w-6 rounded-sm ${isOpen ? 'rotate-45 translate-y-1' :'-translate-y-0.5'} `}></span>
+            <span className={` transition-all duration-300 ease-out bg-white block h-0.5 w-6 rounded-sm my-0.5 ${isOpen ? 'opacity-0' :'opacity-100'} `}></span>
+            <span className={` transition-all duration-300 ease-out bg-white block h-0.5 w-6 rounded-sm  ${isOpen ? '-rotate-45 -translate-y-1' :'translate-y-0.5'} `}></span>
         </button>
         <ul className='text-white hidden lg:flex justify-between items-end gap-16 xl:gap-32'>
           <li ref={aboutMenuRef} className='relative uppercase font-gothic-a1 text-base cursor-pointer' onClick={() => setOpenAboutMenu(!openAboutMenu)}>
