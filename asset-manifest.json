@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/innercircle/static/css/main.246c74c4.css",
+    "main.js": "/innercircle/static/js/main.0536c425.js",
+    "static/media/HeroBackground.png": "/innercircle/static/media/HeroBackground.c27bbc52bd6f6de2dd37.png",
+    "static/media/contact.png": "/innercircle/static/media/contact.8ec06dddd24974e08a3b.png",
+    "static/media/footer image.png": "/innercircle/static/media/footer image.b2519e364791535e6b13.png",
+    "static/media/Rectangle 15480.png": "/innercircle/static/media/Rectangle 15480.258fec141d0bcb70a0f2.png",
+    "static/media/for candidates.png": "/innercircle/static/media/for candidates.a47be118a40e6113200d.png",
+    "static/media/Rectangle 36.png": "/innercircle/static/media/Rectangle 36.40d91b795ab90ec6be1b.png",
+    "static/media/condidateMobile.png": "/innercircle/static/media/condidateMobile.b88440bdcbf5d02768a2.png",
+    "static/media/Ahmed.png": "/innercircle/static/media/Ahmed.41a229539c21a0028e0d.png",
+    "static/media/elsa image.png": "/innercircle/static/media/elsa image.8ada9d5bbceb189e150e.png",
+    "index.html": "/innercircle/index.html",
+    "main.246c74c4.css.map": "/innercircle/static/css/main.246c74c4.css.map",
+    "main.0536c425.js.map": "/innercircle/static/js/main.0536c425.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.246c74c4.css",
+    "static/js/main.0536c425.js"
+  ]
+}
